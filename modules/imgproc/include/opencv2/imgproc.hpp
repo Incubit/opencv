@@ -3285,6 +3285,9 @@ The algorithm normalizes the brightness and increases the contrast of the image.
  */
 CV_EXPORTS_W void equalizeHist( InputArray src, OutputArray dst );
 
+CV_EXPORTS_W void ZhangSuen( InputArray src, OutputArray dst );
+
+
 /** @brief Computes the "minimal work" distance between two weighted point configurations.
 
 The function computes the earth mover distance and/or a lower boundary of the distance between the
